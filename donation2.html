@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">SWPA Climbers Coalition</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">Donations and Swag!</h1>
+          <img src="img/swpacc_logo.jpg" />
+          <p class="lead">The SWPACC accepts donations of any amount, but if you’d also like to represent the group with some sweet swag, your donation must exceed $25. Choose from: T-shirt (orange or green) or Silipint.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <form>
+                <div class="form-group">
+                    <label for="amount">Donation Amount (USD)</label>
+                    <select id="amount" class="form-control">
+                        <option value="15">15$</option>
+                        <option value="25">25$</option>
+                        <option value="50">50$</option>
+                        <option value="100">100$</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input class="form-control" type="text" id="first_name" name="first_name" />
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name</label>
+                    <input class="form-control" type="text" id="last_name" name="last_name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input class="form-control" type="email" id="email" name="email" />
+                </div>
+                <div class="form-group">
+                    <label for="address">Mailing Address</label>
+                    <input class="form-control" type="text" id="address" name="address" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input class="form-control" type="tel" id="phone" name="phone" />
+                </div>
+                <div class="form-group">
+                    <label for="product_select">Product Selection</label>
+                    <select id="product_select" name="product_select" class="form-control" >
+                        <option>I would like to make a donation to the SWPACC--no need to send me any swag! [Please specify amount]</option>
+                        <option>I am a joint member of the SWPACC and the Access Fund. Please send me a SWPACC T-Shirt for my donation of $15 or more.</option>
+                        <option>I am a joint member of the SWPACC and the Access Fund. Please send me a SWPACC pint glass my donation of $15 or more.</option>
+                        <option>I am NOT a joint member of the  SWPACC and Access Fund, but would like to make a donation of $25 or more to the SWPACC and receive a SWPACC T-Shirt.</option>
+                        <option>I am NOT a joint member of the  SWPACC and Access Fund, but would like to make a donation of $25 or more to the SWPACC and receive a SWPACC pint glass.</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tshirt">T-Shirt Color/Size</label>
+                    <select id="tshirt" class="form-control" name="tshirt">
+                        <option>Select One</option>
+                        <option>Green - Small</option>
+                        <option>Green - Medium</option>
+                        <option>Green - Large</option>
+                        <option>Orange - Small</option>
+                        <option>Orange - Medium</option>
+                        <option>Orange - Large</option>
+                    </select>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="deliveryAscend" name="delivery" value="ascend" />
+                    <label class="form-check-label" for="deliveryAscend">Pick up at ASCEND Pittsburgh</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="deliveryShip" name="delivery" value="ship" />
+                    <label class="form-check-label" for="deliveryShip">Ship to me</label>
+                </div>
+                <div class="form-group">
+                    <button id="btnSubmit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
